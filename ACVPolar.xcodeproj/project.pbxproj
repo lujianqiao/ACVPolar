@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2104A501FD3A94996F5248A2 /* Pods_ACVPolarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1050757E7F85B2650021737 /* Pods_ACVPolarTests.framework */; };
+		440C2DE1957FEE9BB0DF691A /* Pods_ACVPolar_ACVPolarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D4EF092E72D5885B959E7B /* Pods_ACVPolar_ACVPolarUITests.framework */; };
+		DCF1055F9A3A5B34D2E1CA5D /* Pods_ACVPolar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250016C588919129028A5178 /* Pods_ACVPolar.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		00A8BC062E447EAC0009B789 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,15 @@
 		00A8BBEF2E447EAB0009B789 /* ACVPolar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACVPolar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A8BC052E447EAC0009B789 /* ACVPolarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACVPolarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A8BC0F2E447EAC0009B789 /* ACVPolarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACVPolarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ADB5438642E389BF5CA3DD9 /* Pods-ACVPolar-ACVPolarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACVPolar-ACVPolarUITests.debug.xcconfig"; path = "Target Support Files/Pods-ACVPolar-ACVPolarUITests/Pods-ACVPolar-ACVPolarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0DEC8D5EE0AC370C776A8C30 /* Pods-ACVPolar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACVPolar.debug.xcconfig"; path = "Target Support Files/Pods-ACVPolar/Pods-ACVPolar.debug.xcconfig"; sourceTree = "<group>"; };
+		1B64AE63C851B1BD57DFBAC5 /* Pods-ACVPolar-ACVPolarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACVPolar-ACVPolarUITests.release.xcconfig"; path = "Target Support Files/Pods-ACVPolar-ACVPolarUITests/Pods-ACVPolar-ACVPolarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2160A58FA7E7ECACDA712328 /* Pods-ACVPolarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACVPolarTests.release.xcconfig"; path = "Target Support Files/Pods-ACVPolarTests/Pods-ACVPolarTests.release.xcconfig"; sourceTree = "<group>"; };
+		250016C588919129028A5178 /* Pods_ACVPolar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACVPolar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B56FBA2C1909D76C7A0090A /* Pods-ACVPolarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACVPolarTests.debug.xcconfig"; path = "Target Support Files/Pods-ACVPolarTests/Pods-ACVPolarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79D4EF092E72D5885B959E7B /* Pods_ACVPolar_ACVPolarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACVPolar_ACVPolarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFABE7B1CC2CA86B4F65396 /* Pods-ACVPolar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACVPolar.release.xcconfig"; path = "Target Support Files/Pods-ACVPolar/Pods-ACVPolar.release.xcconfig"; sourceTree = "<group>"; };
+		B1050757E7F85B2650021737 /* Pods_ACVPolarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACVPolarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCF1055F9A3A5B34D2E1CA5D /* Pods_ACVPolar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2104A501FD3A94996F5248A2 /* Pods_ACVPolarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				440C2DE1957FEE9BB0DF691A /* Pods_ACVPolar_ACVPolarUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +110,8 @@
 				00A8BC082E447EAC0009B789 /* ACVPolarTests */,
 				00A8BC122E447EAC0009B789 /* ACVPolarUITests */,
 				00A8BBF02E447EAB0009B789 /* Products */,
+				6B62AA1B6D9E846C2984A583 /* Pods */,
+				2A959323BFC522F63C29D921 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +125,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2A959323BFC522F63C29D921 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				250016C588919129028A5178 /* Pods_ACVPolar.framework */,
+				79D4EF092E72D5885B959E7B /* Pods_ACVPolar_ACVPolarUITests.framework */,
+				B1050757E7F85B2650021737 /* Pods_ACVPolarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B62AA1B6D9E846C2984A583 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DEC8D5EE0AC370C776A8C30 /* Pods-ACVPolar.debug.xcconfig */,
+				9BFABE7B1CC2CA86B4F65396 /* Pods-ACVPolar.release.xcconfig */,
+				0ADB5438642E389BF5CA3DD9 /* Pods-ACVPolar-ACVPolarUITests.debug.xcconfig */,
+				1B64AE63C851B1BD57DFBAC5 /* Pods-ACVPolar-ACVPolarUITests.release.xcconfig */,
+				4B56FBA2C1909D76C7A0090A /* Pods-ACVPolarTests.debug.xcconfig */,
+				2160A58FA7E7ECACDA712328 /* Pods-ACVPolarTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00A8BC182E447EAC0009B789 /* Build configuration list for PBXNativeTarget "ACVPolar" */;
 			buildPhases = (
+				8ECDBE66B4DDE9C60815E92D /* [CP] Check Pods Manifest.lock */,
 				00A8BBEB2E447EAB0009B789 /* Sources */,
 				00A8BBEC2E447EAB0009B789 /* Frameworks */,
 				00A8BBED2E447EAB0009B789 /* Resources */,
+				40E716BCE0C7E8756BBA8720 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				00A8BBF12E447EAB0009B789 /* ACVPolar */,
 			);
 			name = ACVPolar;
-			packageProductDependencies = (
-			);
 			productName = ACVPolar;
 			productReference = 00A8BBEF2E447EAB0009B789 /* ACVPolar.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00A8BC1D2E447EAC0009B789 /* Build configuration list for PBXNativeTarget "ACVPolarTests" */;
 			buildPhases = (
+				1853E5EF3BD2F9B52B15F60A /* [CP] Check Pods Manifest.lock */,
 				00A8BC012E447EAC0009B789 /* Sources */,
 				00A8BC022E447EAC0009B789 /* Frameworks */,
 				00A8BC032E447EAC0009B789 /* Resources */,
@@ -147,8 +191,6 @@
 				00A8BC082E447EAC0009B789 /* ACVPolarTests */,
 			);
 			name = ACVPolarTests;
-			packageProductDependencies = (
-			);
 			productName = ACVPolarTests;
 			productReference = 00A8BC052E447EAC0009B789 /* ACVPolarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00A8BC202E447EAC0009B789 /* Build configuration list for PBXNativeTarget "ACVPolarUITests" */;
 			buildPhases = (
+				5788B4DD854ACF54A4C7D6FF /* [CP] Check Pods Manifest.lock */,
 				00A8BC0B2E447EAC0009B789 /* Sources */,
 				00A8BC0C2E447EAC0009B789 /* Frameworks */,
 				00A8BC0D2E447EAC0009B789 /* Resources */,
+				07D4CC1361D700F4F8A0D062 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				00A8BC122E447EAC0009B789 /* ACVPolarUITests */,
 			);
 			name = ACVPolarUITests;
-			packageProductDependencies = (
-			);
 			productName = ACVPolarUITests;
 			productReference = 00A8BC0F2E447EAC0009B789 /* ACVPolarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -183,11 +225,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = ACV;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
 					00A8BBEE2E447EAB0009B789 = {
 						CreatedOnToolsVersion = 16.4;
+						LastSwiftMigration = 1640;
 					};
 					00A8BC042E447EAC0009B789 = {
 						CreatedOnToolsVersion = 16.4;
@@ -244,6 +288,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		07D4CC1361D700F4F8A0D062 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACVPolar-ACVPolarUITests/Pods-ACVPolar-ACVPolarUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACVPolar-ACVPolarUITests/Pods-ACVPolar-ACVPolarUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACVPolar-ACVPolarUITests/Pods-ACVPolar-ACVPolarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1853E5EF3BD2F9B52B15F60A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACVPolarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40E716BCE0C7E8756BBA8720 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACVPolar/Pods-ACVPolar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ACVPolar/Pods-ACVPolar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACVPolar/Pods-ACVPolar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5788B4DD854ACF54A4C7D6FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACVPolar-ACVPolarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ECDBE66B4DDE9C60815E92D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ACVPolar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00A8BBEB2E447EAB0009B789 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,19 +439,26 @@
 /* Begin XCBuildConfiguration section */
 		00A8BC192E447EAC0009B789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DEC8D5EE0AC370C776A8C30 /* Pods-ACVPolar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D93FAJ658V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACVPolar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera permissions will be used to update your profile picture and post community updates";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone permission will be used to publish community updates";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your photo information will be used to update your avatar and post community updates";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +466,14 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ADS.LUJQ.ACVPolar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ACVPolar/Modules/SignIn/ACVPolar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -316,19 +481,26 @@
 		};
 		00A8BC1A2E447EAC0009B789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFABE7B1CC2CA86B4F65396 /* Pods-ACVPolar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D93FAJ658V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACVPolar/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera permissions will be used to update your profile picture and post community updates";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Your microphone permission will be used to publish community updates";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Your photo information will be used to update your avatar and post community updates";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,11 +508,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ADS.LUJQ.ACVPolar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ACVPolar/Modules/SignIn/ACVPolar-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -469,6 +643,7 @@
 		};
 		00A8BC1E2E447EAC0009B789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B56FBA2C1909D76C7A0090A /* Pods-ACVPolarTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +663,7 @@
 		};
 		00A8BC1F2E447EAC0009B789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2160A58FA7E7ECACDA712328 /* Pods-ACVPolarTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +683,7 @@
 		};
 		00A8BC212E447EAC0009B789 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ADB5438642E389BF5CA3DD9 /* Pods-ACVPolar-ACVPolarUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -524,6 +701,7 @@
 		};
 		00A8BC222E447EAC0009B789 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B64AE63C851B1BD57DFBAC5 /* Pods-ACVPolar-ACVPolarUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

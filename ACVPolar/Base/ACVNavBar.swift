@@ -1,0 +1,73 @@
+//
+//  ACVNavBar.swift
+//  ACVPolar
+//  
+//  Created by _.
+//  Copyright © 2025/8/7 _. All rights reserved.
+//
+
+import UIKit
+
+class ACVNavBar: UIView {
+
+    lazy var backBtn: UIButton = {
+        let btn: UIButton = .init()
+        btn.setImage(.init(named: "nav_back"), for: .normal)
+        btn.rx.tap.subscribe(onNext: {[weak self] _ in
+            guard let self = self else { return }
+            if let rootVC = UIApplication.shared.keyWindow?.rootViewController,
+               let currentVC = rootVC.currentViewController {
+                currentVC.navigationController?.popViewController(animated: true)
+            }
+        }).disposed(by: rx.disposeBag)
+        return btn
+    }()
+    
+    lazy var rightBtn: UIButton = {
+        let btn: UIButton = .init()
+        btn.setImage(UIImage.init(named: "nav_menu_white"), for: .normal)
+        return btn
+    }()
+    
+    lazy var titleLabel: UILabel = {
+        let lab: UILabel = .init()
+        lab.text = ""
+        lab.textColor = .init(hex: "#0C092A")
+        lab.font = .systemFont(ofSize: 17, weight: .semibold)
+        lab.textAlignment = .center
+        return lab
+    }()
+    
+    
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        addSubview(backBtn)
+        backBtn.snp.makeConstraints { make in
+            make.left.bottom.equalToSuperview()
+            make.top.equalTo(kStatusBarHeight)
+            make.width.height.equalTo(44)
+        }
+        
+        addSubview(rightBtn)
+        rightBtn.snp.makeConstraints { make in
+            make.right.bottom.equalToSuperview()
+            make.top.equalTo(kStatusBarHeight)
+            make.width.height.equalTo(44)
+        }
+        
+        addSubview(titleLabel)
+        titleLabel.snp.makeConstraints { make in
+            make.left.equalTo(backBtn.snp.right).offset(16)
+            make.right.equalTo(rightBtn.snp.left).offset(-16)
+            make.top.equalTo(kStatusBarHeight)
+            make.height.equalTo(44)
+        }
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+}

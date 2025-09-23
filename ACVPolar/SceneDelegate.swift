@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -18,6 +19,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        initThreeLibrary()
+        goApackage()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,3 +54,40 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+extension SceneDelegate {
+    
+    /// 去A包
+    func goApackage() {
+        if let _ = ACVConst.ACVGetUserDefaultsData(with: ACVConst.ACV_userTokenKey) {
+            window?.rootViewController = ACVTabBarViewController()
+        } else {
+            let vc = ACVNavigationController.init(rootViewController: ACVSignInViewController())
+            window?.rootViewController = vc
+        }
+    }
+    
+    /// 配置三方SDK
+    func initThreeLibrary() {
+        IQKeyboardManager.shared.resignOnTouchOutside = true
+    }
+}
+
+extension UIApplication {
+    /// 获取当前的key window
+    var topWindow: UIWindow? {
+        var view = UIApplication.shared.keyWindow
+        let windows = UIApplication.shared.windows
+        /// 检查是否有键盘弹起
+        for window in windows {
+            let viewName = NSStringFromClass(type(of: window))
+            if viewName == "UIRemoteKeyboardWindow" {
+                view = window
+                break
+            }
+            if window.isKeyWindow {
+                view = window
+             }
+        }
+        return view
+    }
+}
